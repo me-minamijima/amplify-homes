@@ -1,6 +1,13 @@
-type Home @model @auth(rules: [{allow: public}]) {
+type Mag @model @auth(rules: [{allow: public}]) {
   id: ID!
-  address: String
   image_url: String
-  price: Float
+  tag: String
+  tag_color: String
+  text: String
 }
+
+type G22 @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  image_url: String
+}
+ 

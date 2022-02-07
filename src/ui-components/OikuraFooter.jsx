@@ -29,6 +29,7 @@ export default function OikuraFooter(props) {
         right="0%"
         width="100%"
         padding="0px 0px 0px 0px"
+        src="https://sd-seminer-minamijima.s3.ap-northeast-1.amazonaws.com/img/Group+22.png"
         {...getOverrideProps(overrides, "View.Image[0]")}
       ></Image>
     </View>

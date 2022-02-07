@@ -4,10 +4,10 @@ import { OikuraHeader, MagHead, MagBody, MagBodyCollection, OikuraFooter } from 
 function App() {
   return (
     <div className="App">
-    <OikuraHeader width={{ small: "340px", large: "340px", xl: "340px" }}/>
-    <MagHead width={{ small: "340px", large: "340px", xl: "340px" }}/>
+    <OikuraHeader width={{ small: "375px", large: "375px", xl: "375px" }}/>
+    <MagHead width={{ small: "375px", large: "375px", xl: "375px" }}/>
     <MagBody/>
-    <OikuraFooter width={{ small: "340px", large: "340px", xl: "340px" }}/>
+    <OikuraFooter width={{ small: "375px", large: "375px", xl: "375px" }}/>
     </div>
   );
 }
